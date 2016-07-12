@@ -1,24 +1,30 @@
 ## README
+# Practice on rails 5.0.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the sample application for rails 5.0.0
 
-Things you may want to cover:
+## Geting started  
+To get started with the app, clone the repo and then insatll the needed gems
+```
+$ bundle install --without production  
 
-* Ruby version
+```
 
-* System dependencies
+Next, migrate the database:
 
-* Configuration
+```
+$ rake db:migrate
+```
 
-* Database creation
+Finally, run the test suite to verfy that everything is working correctly:
 
-* Database initialization
+```
+$ rails test
+```
 
-* How to run the test suite
+If the test syite passes, you'll be ready to run the app in a local server:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ rails server
+```
 
-* Deployment instructions
-
-* ...
