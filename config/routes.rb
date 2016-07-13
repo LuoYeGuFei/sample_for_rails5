@@ -8,5 +8,5 @@ Rails.application.routes.draw do
 
   # Serve websocket cable requests in-process
   # mount ActionCable.server => '/cable'
-	root 'static_pages#help'
+	root 'static_pages#home'
 end

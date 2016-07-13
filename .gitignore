@@ -5,6 +5,13 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
+.rspec
+.rvmrc
+*.bak
+*.swp
+*.swo
+*.dmp
+*.sock
 /.bundle
 
 # Ignore the default SQLite database.
